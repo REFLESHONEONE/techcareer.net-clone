@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+}
+nav {
+  background-color: white;
+  height: 90px;
+  border-bottom: 1px solid gray;
+  z-index: -1;
+  background-attachment: fixed;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  float: left;
+  padding: 8px;
+  position: relative;
+  right: -140px;
+}
+.logo {
+  padding: 15px;
+  position: relative;
+  top: 30px;
+  left: -77px;
+  font-size: 30px;
+  text-transform: lowercase;
+}
+
+.logocolor {
+  color: #00c26d;
+}
+
+nav a {
+  color: #1d1d1d;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+nav .list:hover {
+  background-color: #00c26d;
+  color: white;
+  padding: 9px;
+}
+
+.listtag {
+  border: 1px solid grey;
+  color: #1d1d1d;
+  padding: 9px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+.listtag:hover {
+  background-color: #cfd2cf;
+  opacity: 0.5;
+}
+.l-tag {
+  border: 2px solid #00c26d;
+  background-color: #00c26d;
+  color: white;
+  border-radius: 5px;
+  padding: 9px;
+}
+.l-tag:hover {
+  border: 2px solid #00917c;
+
+  background-color: #00917c;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* navbar section finish */
+
+.tops {
+  position: relative;
+  height: 300px;
+  top: 20px;
+}
+.tops h1 {
+  position: absolute;
+  left: 280px;
+  top: 88px;
+  font-size: 40px;
+  color: #1d1d1d;
+}
+.tops span {
+  color: #00c26d;
+}
+.tops p {
+  position: absolute;
+  left: 270px;
+  top: 190px;
+  font-size: 21px;
+  padding: 21px;
+  text-transform: capitalize;
+  color: #1d1d1d;
+}
+.tops .p-span {
+  background-color: #1d1d1d;
+  color: white;
+  padding: 9px;
+  width: 150px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+}
+.tops img {
+  position: absolute;
+  top: -50px;
+  left: 45px;
+  background-color: white;
+  z-index: -1;
+}
+.tops .fa-solid {
+  position: absolute;
+  left: 280px;
+  top: 5px;
+  padding: 9px;
+  color: #00c26d;
+  font-size: 40px;
+}
+.tops .p-tag {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  margin-top: 30px;
+}
+.tops .colors {
+  background-color: #293349;
+  width: 35%;
+  float: right;
+  height: 700px;
+  display: inline;
+}
+.l-tops {
+  position: relative;
+}
+.l-tops img {
+  position: absolute;
+  left: 55%;
+  top: -170px;
+}
+
+.l-tops .solida {
+  position: absolute;
+  left: 80%;
+  top: -170px;
+  font-size: 100px;
+  color: white;
+}
+/* center section */
+
+.logos-tags {
+  height: 125px;
+  background-color: #cfd2cf;
+  position: relative;
+  top: 20px;
+}
+.logos-tags img {
+  float: left;
+  height: 100px;
+  padding: 19px;
+  font-size: 22px;
+}
+.logos-tags img:hover {
+  background-color: #293349;
+  transition: all 1s;
+  border-radius: 150px;
+  cursor: pointer;
+}
+/* center finish */
+
+.col {
+  margin: 5px auto;
+  height: 500px;
+}
+.col .trop {
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #293349;
+  width: 600px;
+  position: relative;
+  left: 670px;
+  top: 35px;
+  border-radius: 15px;
+  color: aliceblue;
+  box-shadow: 3px 3px 13px #293349;
+}
+.col-3 {
+  width: 30%;
+  height: 540px;
+  float: left;
+  padding: 2px;
+  border: 2px solid grey;
+
+  border-radius: 5px;
+  position: relative;
+  top: 80px;
+  margin-right: 14px;
+
+  left: 13%;
+}
+.col-3:hover {
+  border: 5px solid #00c26d;
+}
+.col-3 img {
+  width: 100%;
+}
+.col-3 .h-col-3,
+.place {
+  text-align: center;
+  padding: 13px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.col-3 .a-tag {
+  text-align: center;
+  border: 2px solid #293349;
+  border-radius: 25px;
+  padding: 5px;
+  position: relative;
+  left: 36%;
+
+  color: #293349;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.a-tag:hover {
+  background-color: #293349;
+  color: white;
+}
+.col-3 .sll {
+  margin: 20px 0;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  padding: 7px;
+  font-size: 17px;
+  position: relative;
+  top: 4px;
+  background-color: #293349;
+  color: white;
+  cursor: pointer;
+}
+.col-3 .sll:hover {
+  border-radius: 75px;
+  color: #00c26d;
+}
+.col .btn-col {
+  background-color: #00c26d;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  position: relative;
+  top: 650px;
+  left: -550px;
+  padding: 19px;
+}
+.col .btn-col:hover {
+  background-color: #00917c;
+  text-decoration: underline;
+  transition: all 1s;
+}
+
+/* grey-lg section start */
+
+.grey-lg {
+  width: 80%;
+  height: 400px;
+  position: relative;
+  top: 320px;
+}
+.grey-lg .hat {
+  text-transform: capitalize;
+  position: relative;
+  top: 40px;
+  font-size: 31px;
+  border-top: 10px solid #293349;
+
+  padding: 25px;
+  left: 270px;
+}
+.grey-lg .col-2 {
+  width: 30%;
+  height: 500px;
+  float: left;
+  display: inline;
+  margin: 0 auto;
+}
+.col-2 img {
+  position: relative;
+  top: 95px;
+  left: 260px;
+}
+.col-2 h2 {
+  position: relative;
+  font-size: 22px;
+  top: 100px;
+  left: 260px;
+  padding: 17px;
+  right: 22px;
+}
+.col-2 p {
+  position: relative;
+  top: 50px;
+  left: 260px;
+  color: black;
+  text-align: left;
+  padding: 20px;
+}
+/* bottom selection */
+
+.bottom {
+  height: 500px;
+  background-color: white;
+  width: 50%;
+  position: relative;
+  float: right;
+  border-top: 20px solid #00c26d;
+  top: 550px;
+}
+.coll img {
+  position: relative;
+  top: 120px;
+  left: 200px;
+}
+.coll .gry {
+  position: relative;
+  top: 120px;
+  left: 200px;
+  padding: 8px;
+}
+.coll .p3 {
+  position: relative;
+  top: 120px;
+  left: 200px;
+  padding: 8px;
+}
+.coll {
+  float: left;
+  position: relative;
+  width: 30%;
+  left: -700px;
+  padding: 9px;
+}
+.coll .hrf {
+  color: #00c26d;
+  position: relative;
+  top: 125px;
+  font-size: 15px;
+  right: -220px;
+  text-transform: capitalize;
+  padding: 5px;
+}
+.coll .hrf:hover {
+  background-color: #00917c;
+  text-decoration: none;
+  color: white;
+}
+
+/* bott-col caption */
+
+.bott-col {
+  background-color: #293349;
+  height: 500px;
+  float: left;
+  width: 1200px;
+  position: relative;
+  top: 700px;
+  left: 220px;
+}
+.bott-col .bot-text {
+  color: white;
+  padding: 40px;
+  position: relative;
+  left: 400px;
+}
+input {
+  width: 400px;
+  height: 50px;
+  color: gray;
+  position: relative;
+  top: 44px;
+  left: 460px;
+}
+
+pre {
+  color: white;
+  position: relative;
+  top: 77px;
+  padding: 7px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 22px;
+  left: 460px;
+}
+.sos {
+  position: relative;
+  top: 50px;
+  left: 70px;
+  font-size: 25px;
+  color: grey;
+}
